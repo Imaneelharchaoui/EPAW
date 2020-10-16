@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>EPAW3</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>InscriptionAssocServlet</servlet-name>
+  	<servlet-class>Servlet.InscriptionAssocServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>InscriptionAssocServlet</servlet-name>
+		 <url-pattern>/InscriptionAssoc</url-pattern>
+	 </servlet-mapping>
+	 <servlet>
+  	<servlet-name>RechercheAnimalServlet</servlet-name>
+  	<servlet-class>Servlet.RechercheAnimalServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>RechercheAnimalServlet</servlet-name>
+		 <url-pattern>/Recherche</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>AdminRechServlet</servlet-name>
+  	<servlet-class>Servlet.AdminRechServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>AdminRechServlet</servlet-name>
+		 <url-pattern>/RechercheAdmin</url-pattern>
+	 </servlet-mapping>
+	 <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<servlet-class>Servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>LogoutServlet</servlet-name>
+		 <url-pattern>/Logout</url-pattern>
+	 </servlet-mapping>
+	 <servlet>
+  	<servlet-name>AnimalsServlet</servlet-name>
+  	<servlet-class>Servlet.AnimalsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>AnimalsServlet</servlet-name>
+		 <url-pattern>/Animals</url-pattern>
+	 </servlet-mapping>
+	 <servlet>
+  	<servlet-name>UpdateAnnonceServlet</servlet-name>
+  	<servlet-class>Servlet.UpdateAnnonceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>UpdateAnnonceServlet</servlet-name>
+		 <url-pattern>/UpdateAnnonce</url-pattern>
+	 </servlet-mapping>
+	 <servlet>
+  	<servlet-name>AdminAssocInfoServlet</servlet-name>
+  	<servlet-class>Servlet.AdminAssocInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>AdminAssocInfoServlet</servlet-name>
+		 <url-pattern>/Admin</url-pattern>
+	 </servlet-mapping>
+	 <servlet>
+  	<servlet-name>InscriptionPartServlet</servlet-name>
+  	<servlet-class>Servlet.InscriptionPartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>InscriptionPartServlet</servlet-name>
+		 <url-pattern>/InscriptionParticulier</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>UpdateProfilPartServlet</servlet-name>
+  	<servlet-class>Servlet.UpdateProfilPartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>UpdateProfilPartServlet</servlet-name>
+		 <url-pattern>/UpdateParticulier</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>ConnAdminServlet</servlet-name>
+  	<servlet-class>Servlet.ConnAdminServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>ConnAdminServlet</servlet-name>
+		 <url-pattern>/ConnAdmin</url-pattern>
+	 </servlet-mapping>
+	 
+	  <servlet>
+  	<servlet-name>AnnonceServlet</servlet-name>
+  	<servlet-class>Servlet.AnnonceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>AnnonceServlet</servlet-name>
+		 <url-pattern>/AjoutAnnonce</url-pattern>
+	 </servlet-mapping>
+	 <servlet>
+  	<servlet-name>ConnectionServlet</servlet-name>
+  	<servlet-class>Servlet.ConnectionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>ConnectionServlet</servlet-name>
+		 <url-pattern>/Connection</url-pattern>
+	 </servlet-mapping>
+	  <servlet>
+  	<servlet-name>AnimalServlet</servlet-name>
+  	<servlet-class>Servlet.AnimalServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>AnimalServlet</servlet-name>
+		 <url-pattern>/MyAnimals</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>AdminBanne</servlet-name>
+  	<servlet-class>Servlet.AdminBanne</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>AdminBanne</servlet-name>
+		 <url-pattern>/BANNE</url-pattern>
+	 </servlet-mapping>
+	 
+	 	 <servlet>
+  	<servlet-name>AdminBanneAssoc</servlet-name>
+  	<servlet-class>Servlet.AdminBanneAssoc</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>AdminBanneAssoc</servlet-name>
+		 <url-pattern>/BANNEASSOC</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>ReclamationServlet</servlet-name>
+  	<servlet-class>Servlet.ReclamationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>ReclamationServlet</servlet-name>
+		 <url-pattern>/SEND</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>ReclamationAssocServlet</servlet-name>
+  	<servlet-class>Servlet.ReclamationAssocServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>ReclamationAssocServlet</servlet-name>
+		 <url-pattern>/SENDAssoc</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>ListeReclamationServlet</servlet-name>
+  	<servlet-class>Servlet.ListeReclamationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>ListeReclamationServlet</servlet-name>
+		 <url-pattern>/Reclamation</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>DeleteReclServlet</servlet-name>
+  	<servlet-class>Servlet.DeleteReclServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>DeleteReclServlet</servlet-name>
+		 <url-pattern>/DeleteRecl</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>UpdateReclAssocServlet</servlet-name>
+  	<servlet-class>Servlet.UpdateReclAssocServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>UpdateReclAssocServlet</servlet-name>
+		 <url-pattern>/DeleteReclAssoc</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>SignalerAssocServlet</servlet-name>
+  	<servlet-class>Servlet.SignalerAssocServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>SignalerAssocServlet</servlet-name>
+		 <url-pattern>/Signaler</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>DeleteAnnonceServlet</servlet-name>
+  	<servlet-class>Servlet.DeleteAnnonceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>DeleteAnnonceServlet</servlet-name>
+		 <url-pattern>/Del</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>DeleteAnnAssocServlet</servlet-name>
+  	<servlet-class>Servlet.DeleteAnnAssocServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>DeleteAnnAssocServlet</servlet-name>
+		 <url-pattern>/DelAnn</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>InscriptionVetServlet</servlet-name>
+  	<servlet-class>Servlet.InscriptionVetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>InscriptionVetServlet</servlet-name>
+		 <url-pattern>/InscriptionVet</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>AjoutOffreServlet</servlet-name>
+  	<servlet-class>Servlet.AjoutOffreServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>AjoutOffreServlet</servlet-name>
+		 <url-pattern>/AjoutOffre</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>OffresVetServlet</servlet-name>
+  	<servlet-class>Servlet.OffresVetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>OffresVetServlet</servlet-name>
+		 <url-pattern>/MesOffres</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>SendMailAssocServlet</servlet-name>
+  	<servlet-class>Servlet.SendMailAssocServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>SendMailAssocServlet</servlet-name>
+		 <url-pattern>/SENDINGMAIL</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>ToutOffresVetServlet</servlet-name>
+  	<servlet-class>Servlet.ToutOffresVetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>ToutOffresVetServlet</servlet-name>
+		 <url-pattern>/AllOffers</url-pattern>
+	 </servlet-mapping>
+	 
+	  <servlet>
+  	<servlet-name>AdminBanneVetServlet</servlet-name>
+  	<servlet-class>Servlet.AdminBanneVetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>AdminBanneVetServlet</servlet-name>
+		 <url-pattern>/BANNEVET</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>DeleteOffresServlet</servlet-name>
+  	<servlet-class>Servlet.DeleteOffresServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>DeleteOffresServlet</servlet-name>
+		 <url-pattern>/DelOffre</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet>
+  	<servlet-name>AvertissementAssocServlet</servlet-name>
+  	<servlet-class>Servlet.AvertissementAssocServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+		 <servlet-name>AvertissementAssocServlet</servlet-name>
+		 <url-pattern>/Avertir</url-pattern>
+	 </servlet-mapping>
+	  
+	
+</web-app>

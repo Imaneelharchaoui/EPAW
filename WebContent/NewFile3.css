@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Khula&display=swap');
+html,
+body
+  {
+  background: rgb(135,131,131) no-repeat center center fixed ;
+background: -moz-linear-gradient(0deg, rgba(135,131,131,1) 0%, rgba(255,255,255,1) 94%) no-repeat center center fixed;
+background: -webkit-linear-gradient(0deg, rgba(135,131,131,1) 0%, rgba(255,255,255,1) 94%) no-repeat center center fixed;
+background: linear-gradient(0deg, rgba(135,131,131,1) 0%, rgba(255,255,255,1) 94%) no-repeat center center fixed;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#878383",endColorstr="#ffffff",GradientType=1) no-repeat center center fixed;
+}
+
+#titletext{
+  font-family: 'Baloo' , cursive;
+  font-size: 500%;
+  color: black;
+}
+#logo{
+  color: black;
+
+}
+#jumbotron {
+  background: url(https://fontmeme.com/permalink/191214/737632cb0f4dfc820bcd873abc0eba9a.png) center no-repeat ;
+}
+
+#icon1{
+  font-family: 'Baloo' , cursive;
+
+}
+#text1{
+  font-family: 'Khula' , cursive;
+  font-size: 200%;
+
+}
+#text2{
+  font-family: 'Khula' , cursive;
+  font-size: 150%;
+
+}
+
+#centrebtn{
+  position: absolute;
+  top: 70%;
+  left: 45%;
+  width: 200px;
+  height: 65px;
+}
+#Radio{
+  padding-left: 70px;
+}
+
+
+#jumbtitle{
+  font-family: 'Khula' , cursive;
+  font-size: 300%
+}
+
+
+
+
