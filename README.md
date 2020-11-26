@@ -2,5 +2,5 @@
 
 
 
-<img src="images\acceuil.PNG" />
+<img src="WebContent\images.PNG" />
 
