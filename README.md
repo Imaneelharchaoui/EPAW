@@ -1,5 +1,4 @@
-# SUDOKU-GAME for kids
-### * Sudoku-game  built using C *
+
 
 
 
